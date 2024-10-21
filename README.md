@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# Sticker Smash
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Sticker Smash is a fun and interactive mobile application built with Expo and React Native that allows users to select images, add multiple emojis with animated editing, and save their creations. The app also supports dark mode and light mode, providing a seamless user experience. This project is an improved version of a sample from the [Expo documentation](https://docs.expo.dev/tutorial/introduction/), with additional features and enhancements.
 
-## Get started
+## Features
 
-1. Install dependencies
+**Image Selection from Media Library**
 
+https://github.com/user-attachments/assets/d62af376-d92b-486c-9e12-79bcfde4f94c
+
+Easily select an image from your device's media library to start creating.
+
+**Add Multiple Emojis with Animated Editing**
+
+https://github.com/user-attachments/assets/de094d73-d37b-4c71-8690-2bbec42fd6f0
+
+Customize your image by adding multiple emojis, which can be animated for a fun editing experience.
+
+**Save Edited Photos to Library**
+
+https://github.com/user-attachments/assets/8c52460a-869f-4a82-8fe4-f17fcc71c0d1
+
+Save your edited images directly to your device's media library for easy access.
+
+**Dark Mode and Light Mode**
+
+https://github.com/user-attachments/assets/35448b11-0f5f-4de1-8b82-1bda73233370
+
+A flexible UI that adapts to your preferences with support for both dark and light themes.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 12 or later)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RishitUmeshPadagatti/Sticker-Smash.git
+   cd sticker-smash
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+### Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Run the app on your preferred simulator or physical device.
+- Select an image from your media library.
+- Add emojis and customize your image.
+- Save your edited photo to your library.
+- Switch between dark and light mode as per your preference.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Acknowledgments
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+A special thanks to [Expo](https://expo.dev/) for their documentation.
